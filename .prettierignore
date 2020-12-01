@@ -1,0 +1,7 @@
+dist
+node_modules
+.yarn
+.github
+
+CHANGELOG.md
+

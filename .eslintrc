@@ -1,0 +1,48 @@
+{
+  "env": {
+    "node": true,
+    "es6": true,
+    "jest": true,
+    "browser": true
+  },
+  "globals": {},
+  "extends": [
+    "eslint:recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:import/typescript",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:jsx-a11y/recommended",
+    "airbnb-typescript",
+    "prettier",
+    "prettier/@typescript-eslint"
+  ],
+  "ignorePatterns": ["*.test.*", "node_modules/", "dist/"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "sourceType": "module",
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["@typescript-eslint/eslint-plugin"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    },
+    "propWrapperFunctions": [],
+    "linkComponents": []
+  },
+  "rules": {
+    "@typescript-eslint/quotes": "off",
+    "no-undef": "error",
+    "import/prefer-default-export": "off",
+    "@typescript-eslint/semi": "off",
+    "max-len": "off",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": ["**/*.test.ts", "**/*.stories.tsx"]
+      }
+    ],
+    "import/extensions": "off"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+
+    /* Basic Options */
+    "target": "es5",
+    "module": "commonjs",
+    "jsx": "react",
+    "allowJs": true,
+    "declaration": true,
+    "sourceMap": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["dom", "es2015", "es2017"],
+    "rootDir": "src",
+    "outDir": "dist/typings"
+  },
+  "exclude": ["**/dist/", "**/node_modules/", "**/webpack.*", "**/commitlint.*"]
+}

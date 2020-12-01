@@ -1,0 +1,8 @@
+{
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx", "*.js", "*.jsx", "*.json"],
+      "options": { "trailingComma": "es5" }
+    }
+  ]
+}

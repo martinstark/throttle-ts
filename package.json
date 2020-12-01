@@ -1,0 +1,52 @@
+{
+  "name": "throttle-ts",
+  "version": "0.0.0",
+  "description": "Correctly typed generic throttle function",
+  "typings": "dist/typings/index.d.ts",
+  "main": "dist/throttle-ts.min.js",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:martinstark/throttle-ts.git"
+  },
+  "scripts": {
+    "build": "yarn build:clean && webpack --config webpack.common.js && tsc -p tsconfig.json --emitDeclarationOnly",
+    "build:clean": "rimraf dist/*",
+    "fix": "eslint --fix .",
+    "lintstaged": "lint-staged",
+    "pretty": "prettier --write .",
+    "ts": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@babel/core": "7.12.9",
+    "@babel/preset-env": "7.12.7",
+    "@babel/preset-typescript": "7.12.7",
+    "@commitlint/cli": "11.0.0",
+    "@commitlint/config-conventional": "11.0.0",
+    "@semantic-release/changelog": "5.0.1",
+    "@semantic-release/git": "9.0.0",
+    "@typescript-eslint/eslint-plugin": "4.9.0",
+    "@typescript-eslint/parser": "4.9.0",
+    "babel-loader": "8.2.2",
+    "eslint": "7.14.0",
+    "eslint-config-airbnb-typescript": "12.0.0",
+    "eslint-config-prettier": "6.15.0",
+    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-react": "7.21.5",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "eslint_d": "9.1.2",
+    "husky": "4.3.0",
+    "lint-staged": "10.5.2",
+    "prettier": "2.2.1",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "rimraf": "3.0.2",
+    "semantic-release": "17.3.0",
+    "typescript": "4.1.2",
+    "webpack": "4.44.2",
+    "webpack-cli": "4.2.0",
+    "webpack-merge": "5.4.0"
+  }
+}
