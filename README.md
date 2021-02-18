@@ -7,6 +7,9 @@ Yields the return value of the throttled function.
 Returns a cancel function which enables cleanup of the timeout, and blocks future calls to the throttled function. Useful when unmounting react/view components.
 
 ### Usage
+```javascript
+import { throttle } from "@martinstark/throttle-ts";
+```
 
 ```javascript
 const fn = () => "executed";
