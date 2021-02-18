@@ -2,6 +2,8 @@
 
 Correctly typed, generic, typescript throttle function.
 
+![throttle typescript](https://i.imgur.com/jPvfFJm.png)
+
 Yields the return value of the throttled function, or undefined when throttled/cancelled.
 
 The throttled function keeps the type signature of the original function, plus `void`.
