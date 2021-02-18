@@ -5,7 +5,6 @@
     /* Basic Options */
     "target": "es5",
     "module": "commonjs",
-    "jsx": "react",
     "allowJs": true,
     "declaration": true,
     "sourceMap": true,
