@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/martinstark/throttle-ts/compare/v1.1.1...v1.2.0) (2021-02-18)
+
+
+### Features
+
+* publish to npm ([dbba303](https://github.com/martinstark/throttle-ts/commit/dbba303f7352a96042f5a61d5373fbfc2f835480))
+
 ## [1.1.1](https://github.com/martinstark/throttle-ts/compare/v1.1.0...v1.1.1) (2021-02-18)
 
 
