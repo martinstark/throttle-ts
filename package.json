@@ -1,10 +1,15 @@
 {
-  "name": "throttle-ts",
+  "name": "@martinstark/throttle-ts",
   "version": "0.0.0",
   "description": "Correctly typed generic throttle function",
   "typings": "dist/typings/index.d.ts",
   "main": "dist/throttle-ts.min.js",
   "private": false,
+  "files": [
+    "/dist",
+    "package.json",
+    "CHANGELOG.md"
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:martinstark/throttle-ts.git"
@@ -15,7 +20,8 @@
     "fix": "eslint --fix .",
     "lintstaged": "lint-staged",
     "pretty": "prettier --write .",
-    "ts": "tsc --noEmit"
+    "ts": "tsc --noEmit",
+    "prepublishOnly": "yarn build"
   },
   "devDependencies": {
     "@babel/core": "7.12.9",
