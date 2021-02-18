@@ -1,8 +1,10 @@
 # throttle-ts
 
-Correctly typed, generic, typescript throttle function
+Correctly typed, generic, typescript throttle function.
 
-Yields the return value of the throttled function.
+Yields the return value of the throttled function, or undefined when throttled/cancelled.
+
+The throttled function keeps the type signature of the original function, plus `void`.
 
 Returns a cancel function which enables cleanup of the timeout, and blocks future calls to the throttled function. Useful when unmounting react/view components.
 
