@@ -1,6 +1,6 @@
 {
   "name": "@martinstark/throttle-ts",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Correctly typed generic throttle function",
   "typings": "dist/typings/index.d.ts",
   "main": "dist/throttle-ts.min.js",

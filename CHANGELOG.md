@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/martinstark/throttle-ts/compare/v1.2.0...v1.2.1) (2021-02-18)
+
+
+### Bug Fixes
+
+* add keywords ([9776675](https://github.com/martinstark/throttle-ts/commit/9776675ae55674a4298f8e64e568600a4a8de989))
+
 # [1.2.0](https://github.com/martinstark/throttle-ts/compare/v1.1.1...v1.2.0) (2021-02-18)
 
 
