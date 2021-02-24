@@ -2860,12 +2860,12 @@ core-util-is@1.0.2, core-util-is@~1.0.0:
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
   integrity sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
 
-core_d@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/core_d/-/core_d-2.0.0.tgz#353ea67194d26b41c5f8d98f18fc9cacadfc0d68"
-  integrity sha512-oIb3QJj/ayYNbg2WYTYM1h3d8XvKF/RBUFhNeVVOfXDskeQC43fypCwnvdGqgTK7rbJ/a8tvxeErCr8vJhJ4vA==
+core_d@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/core_d/-/core_d-3.0.0.tgz#ed2b5f074aa891041ce207e425f6ceacd16cfb48"
+  integrity sha512-6DM/spZ6j+Yha93TMdK+uz/ws82eDcYefPv2dKZBlMT5mFoJNG+zNPaqSpb5xFvrZh90KFXdSuau1Z+Jql2Tsg==
   dependencies:
-    supports-color "^5.5.0"
+    supports-color "^8.1.0"
 
 cosmiconfig@^7.0.0:
   version "7.0.0"
@@ -3650,12 +3650,12 @@ eslint@^7.3.0:
     text-table "^0.2.0"
     v8-compile-cache "^2.0.3"
 
-eslint_d@9.1.2:
-  version "9.1.2"
-  resolved "https://registry.yarnpkg.com/eslint_d/-/eslint_d-9.1.2.tgz#153e17d3a5a8d84e688be07b2dbd5c27304a1975"
-  integrity sha512-HJ7n92z+gSBLPP/en2pse1SLsFfwOXb8aqHn3FyXwYaE+J5wSM+raBbSmvE9Ttq20IF6Rq/dXxjhiIjuxAUjpw==
+eslint_d@10.0.3:
+  version "10.0.3"
+  resolved "https://registry.yarnpkg.com/eslint_d/-/eslint_d-10.0.3.tgz#22965991255cd71d502e6d40ba6d60a03de1b9ee"
+  integrity sha512-dCow8tP9Z8/x3Bx/N0uTk0EKPpfLmGF+Uhu7wy8mEJSzaUp7b8Op6Pre8M/x3RTQKN3wTGfoEsgfUYHBGbpFEQ==
   dependencies:
-    core_d "^2.0.0"
+    core_d "^3.0.0"
     eslint "^7.3.0"
     nanolru "^1.0.0"
     optionator "^0.9.1"
@@ -8249,7 +8249,7 @@ strip-json-comments@~2.0.1:
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
   integrity sha1-PFMZQukIwml8DsNEhYwobHygpgo=
 
-supports-color@^5.3.0, supports-color@^5.5.0:
+supports-color@^5.3.0:
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-5.5.0.tgz#e2e69a44ac8772f78a1ec0b35b689df6530efc8f"
   integrity sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==
@@ -8260,6 +8260,13 @@ supports-color@^7.0.0, supports-color@^7.1.0:
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-7.2.0.tgz#1b7dcdcb32b8138801b3e478ba6a51caa89648da"
   integrity sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==
+  dependencies:
+    has-flag "^4.0.0"
+
+supports-color@^8.1.0:
+  version "8.1.1"
+  resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-8.1.1.tgz#cd6fc17e28500cff56c1b86c0a7fd4a54a73005c"
+  integrity sha512-MpUEN2OodtUzxvKQl72cUF7RQ5EiHsGvSsVG0ia9c5RbWGL2CI4C7EpPS8UTBIplnlzZiNuV56w+FuNxy3ty2Q==
   dependencies:
     has-flag "^4.0.0"
 
