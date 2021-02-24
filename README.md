@@ -11,6 +11,7 @@ The throttled function keeps the type signature of the original function, plus `
 Returns a cancel function which enables cleanup of the timeout, and blocks future calls to the throttled function. Useful when unmounting react/view components.
 
 ### Usage
+
 ```javascript
 import { throttle } from "@martinstark/throttle-ts";
 ```
@@ -23,7 +24,7 @@ const [throttledFn] = throttle(fn, 200);
 throttledFn(); // "executed"
 throttledFn(); // undefined
 throttledFn(); // undefined
-setTimeout(throttledFn, 500) // "executed"
+setTimeout(throttledFn, 500); // "executed"
 ```
 
 ### Using Cancel
