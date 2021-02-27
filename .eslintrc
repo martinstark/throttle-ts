@@ -14,8 +14,7 @@
     "plugin:@typescript-eslint/recommended",
     "plugin:jsx-a11y/recommended",
     "airbnb-typescript",
-    "prettier",
-    "prettier/@typescript-eslint"
+    "prettier"
   ],
   "ignorePatterns": ["*.test.*", "node_modules/", "dist/"],
   "parser": "@typescript-eslint/parser",
