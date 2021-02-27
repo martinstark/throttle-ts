@@ -1,4 +1,4 @@
-export const throttle = <T extends (...args: any) => any>(
+export const throttle = <T extends (...args: any[]) => any>(
   fn: T,
   delay: number
 ): [T | (() => void), () => void] => {
@@ -22,7 +22,6 @@ export const throttle = <T extends (...args: any) => any>(
       return val;
     },
     () => {
-      wait = false;
       cancelled = true;
       clearTimeout(timeout);
     },
