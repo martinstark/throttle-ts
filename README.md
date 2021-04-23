@@ -1,6 +1,6 @@
 # throttle-ts
 
-Correctly typed, generic, typescript throttle function.
+Correctly typed, generic, tiny ([431B](https://bundlephobia.com/result?p=@martinstark/throttle-ts@1.2.2)), typescript throttle function.
 
 ![throttle typescript](https://i.imgur.com/jPvfFJm.png)
 
