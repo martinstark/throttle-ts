@@ -1,13 +1,13 @@
-export const throttle = <T extends (...args: any[]) => any>(
-  fn: T,
+export const throttle = <R, A extends any[]>(
+  fn: (...args: A) => R,
   delay: number
-): [T | (() => void), () => void] => {
+): [(...args: A) => R | undefined, () => void] => {
   let wait = false;
   let timeout: undefined | number;
   let cancelled = false;
 
   return [
-    (...args: any[]) => {
+    (...args: A) => {
       if (cancelled) return undefined;
       if (wait) return undefined;
 
