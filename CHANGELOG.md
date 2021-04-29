@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/martinstark/throttle-ts/compare/v1.2.2...v1.2.3) (2021-04-29)
+
+
+### Bug Fixes
+
+* clean up typing ([9119857](https://github.com/martinstark/throttle-ts/commit/911985767846760b9b22a936e326a46313c77637))
+
 ## [1.2.2](https://github.com/martinstark/throttle-ts/compare/v1.2.1...v1.2.2) (2021-02-27)
 
 
