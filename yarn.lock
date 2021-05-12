@@ -2884,10 +2884,10 @@ core-util-is@1.0.2, core-util-is@~1.0.0:
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
   integrity sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
 
-core_d@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/core_d/-/core_d-3.0.0.tgz#ed2b5f074aa891041ce207e425f6ceacd16cfb48"
-  integrity sha512-6DM/spZ6j+Yha93TMdK+uz/ws82eDcYefPv2dKZBlMT5mFoJNG+zNPaqSpb5xFvrZh90KFXdSuau1Z+Jql2Tsg==
+core_d@^3.1.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/core_d/-/core_d-3.2.0.tgz#c4cbed5b69684d04a6b5f880935be1659601151c"
+  integrity sha512-waKkgHU2P19huhuMjCqCDWTYjxCIHoB+nnYjI7pVMUOC1giWxMNDrXkPw9QjWY+PWCFm49bD3wA/J+c7BGZ+og==
   dependencies:
     supports-color "^8.1.0"
 
@@ -3576,12 +3576,12 @@ eslint@^7.3.0:
     text-table "^0.2.0"
     v8-compile-cache "^2.0.3"
 
-eslint_d@10.0.4:
-  version "10.0.4"
-  resolved "https://registry.yarnpkg.com/eslint_d/-/eslint_d-10.0.4.tgz#b7a7310906ae7f1f6d90ca9b8f845b9abfecf529"
-  integrity sha512-DEJaGxP6VDs3byYKQYw6Py8l2b1KH9S5vUo4IjvhWIEcdo5gjNkJjjzUCoExTIb0Bo7/GbKyNRI/dctUQ5f+7w==
+eslint_d@10.1.1:
+  version "10.1.1"
+  resolved "https://registry.yarnpkg.com/eslint_d/-/eslint_d-10.1.1.tgz#a447a9e128892aa187c3e7d236b5dfced37f32e8"
+  integrity sha512-pWZFDw8ku0cWwLMAQo71i3NE6eESl/w/UqwB9uhdM2IMAFNUFSGHt34UOxg2o8gcRCM85Xwo2rj4AAV7jwKjkA==
   dependencies:
-    core_d "^3.0.0"
+    core_d "^3.1.0"
     eslint "^7.3.0"
     nanolru "^1.0.0"
     optionator "^0.9.1"
