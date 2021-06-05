@@ -47,7 +47,7 @@
     "eslint_d": "10.1.1",
     "husky": "6.0.0",
     "lint-staged": "11.0.0",
-    "prettier": "2.3.0",
+    "prettier": "2.3.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "rimraf": "3.0.2",
