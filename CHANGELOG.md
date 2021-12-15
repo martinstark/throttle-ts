@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/martinstark/throttle-ts/compare/v1.2.3...v1.3.0) (2021-12-15)
+
+
+### Features
+
+* remove accidental polyfilling ([a720eaa](https://github.com/martinstark/throttle-ts/commit/a720eaae02dc96de275b7266a8cfe2ff51d98bc3))
+
 ## [1.2.3](https://github.com/martinstark/throttle-ts/compare/v1.2.2...v1.2.3) (2021-04-29)
 
 
