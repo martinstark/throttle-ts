@@ -3624,10 +3624,10 @@ eslint@^7.3.0:
     text-table "^0.2.0"
     v8-compile-cache "^2.0.3"
 
-eslint_d@11.0.0:
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/eslint_d/-/eslint_d-11.0.0.tgz#a05e7b5409b2113b2b2d7c5a857ee21821ee9f84"
-  integrity sha512-eR6yaJepLQ8hMGIfW2Bj41e4ZnxbsbMZvYjDxWl98YnUlqn46qoUi20N3VB0xq9mv1IKsOO+Rqfnjov5Y93zLg==
+eslint_d@11.1.1:
+  version "11.1.1"
+  resolved "https://registry.yarnpkg.com/eslint_d/-/eslint_d-11.1.1.tgz#206ef2de9f699ab642f5bc3fee6f80d43a66f0f0"
+  integrity sha512-PaNWblwIa10KZUt9EObGBzrsaxB+CPtk5d99sTveXmAtQrPSmrntKpWqxN/Mwot0qnI5gCllzkPZi6tO710KUA==
   dependencies:
     core_d "^3.2.0"
     eslint "^7.3.0"
