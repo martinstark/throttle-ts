@@ -46,7 +46,7 @@
     "eslint-plugin-react-hooks": "4.6.0",
     "eslint_d": "12.2.1",
     "husky": "7.0.2",
-    "lint-staged": "11.2.6",
+    "lint-staged": "13.3.0",
     "prettier": "2.7.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
