@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/martinstark/throttle-ts/compare/v1.4.0...v1.5.0) (2024-11-19)
+
+
+### Features
+
+* allow resetting throttle timeout ([9914848](https://github.com/martinstark/throttle-ts/commit/9914848e88cf22f76c78665498084a52f1e893ff))
+
 # [1.4.0](https://github.com/martinstark/throttle-ts/compare/v1.3.0...v1.4.0) (2024-11-19)
 
 
