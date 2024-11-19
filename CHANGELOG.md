@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/martinstark/throttle-ts/compare/v1.3.0...v1.4.0) (2024-11-19)
+
+
+### Features
+
+* rename package ([02e2201](https://github.com/martinstark/throttle-ts/commit/02e2201a895f358ff9bff618bd08df7345cc2822))
+
 # [1.3.0](https://github.com/martinstark/throttle-ts/compare/v1.2.3...v1.3.0) (2021-12-15)
 
 
