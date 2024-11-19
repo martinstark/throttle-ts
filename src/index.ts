@@ -1,10 +1,14 @@
 export const throttle = <R, A extends any[]>(
   fn: (...args: A) => R,
   delay: number
-): [(...args: A) => R | undefined, () => void] => {
+): [(...args: A) => R | undefined, () => void, () => void] => {
   let wait = false;
   let timeout: undefined | number;
   let cancelled = false;
+
+  function resetWait() {
+    wait = false;
+  }
 
   return [
     (...args: A) => {
@@ -15,15 +19,17 @@ export const throttle = <R, A extends any[]>(
 
       wait = true;
 
-      timeout = window.setTimeout(() => {
-        wait = false;
-      }, delay);
+      timeout = window.setTimeout(resetWait, delay);
 
       return val;
     },
     () => {
       cancelled = true;
       clearTimeout(timeout);
+    },
+    () => {
+      clearTimeout(timeout);
+      resetWait();
     },
   ];
 };
