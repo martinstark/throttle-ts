@@ -14,6 +14,8 @@ Yields the return value of the throttled function, or undefined when throttled/c
 
 The throttled function keeps the type signature of the original function, plus `void`.
 
+![image](https://github.com/user-attachments/assets/d806ab04-1a7b-42a7-907e-44168a3b0988)
+
 Returns a `cancel` function which enables cleanup of the timeout, and blocks future calls to the throttled function. Useful when unmounting (react) ui components.
 
 Returns a `reset` function which enables clearing the timeout, letting you call the method again before the delay has expired.
