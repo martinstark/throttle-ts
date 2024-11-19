@@ -12,7 +12,7 @@ throttled("world", 1);
 
 Yields the return value of the throttled function, or undefined when throttled/cancelled.
 
-The throttled function keeps the type signature of the original function, plus `void`.
+The throttled function keeps the type signature of the original function, plus `undefined`.
 
 ![image](https://github.com/user-attachments/assets/d806ab04-1a7b-42a7-907e-44168a3b0988)
 
