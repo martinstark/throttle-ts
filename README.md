@@ -22,6 +22,10 @@ Returns a `reset` function which enables clearing the timeout, letting you call 
 
 ### Usage
 
+```bash
+npm i throttle-ts
+```
+
 ```javascript
 import { throttle } from "throttle-ts";
 ```
